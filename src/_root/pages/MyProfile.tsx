@@ -54,8 +54,8 @@ const MyProfile = () => {
         {isLoading ? <Loader />
           :
           <>
-            {userData?.answers?.toReversed().slice(0, 10).map((answer: {$createdAt : Date, questionId: number, correctAnswers: number, answers: number[]}) =>
-              <div key={answer.$createdAt.toISOString()} className='grid grid-cols-[100px_3fr_1fr_3fr_2fr] gap-3 w-full border border-neutral-700 rounded-xl py-2 mb-3 text-center'>
+            {userData?.answers?.toReversed().slice(0, 10).map((answer: {$createdAt : string, questionId: number, correctAnswers: number, answers: number[]}) =>
+              <div key={answer.$createdAt} className='grid grid-cols-[100px_3fr_1fr_3fr_2fr] gap-3 w-full border border-neutral-700 rounded-xl py-2 mb-3 text-center'>
                 <div className='flex-center border-r border-neutral-800'>
                   <p className='small-semibold'>{new Date(answer.$createdAt).toLocaleString()}</p>
                 </div>
