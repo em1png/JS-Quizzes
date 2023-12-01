@@ -10,7 +10,7 @@ This project uses React.js for dynamic UI, TypeScript for type-safe development,
 ![Technologies](https://i.imgur.com/dFd5FrL.png)
 
 ## Screenshots
-![Screenshots](https://i.imgur.com/xlP7Jcy.png)
+![Screenshots](https://i.imgur.com/fg4Yuaf.png)
 
 ## Installation
 To run this application locally, follow these steps:
