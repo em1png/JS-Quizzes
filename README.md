@@ -7,7 +7,7 @@ This project uses React.js for dynamic UI, TypeScript for type-safe development,
 [<img src="https://i.imgur.com/zZFScbD.png">](https://js-quizzes.vercel.app/)
 
 ## Technologies
-![Technologies](https://i.imgur.com/T3OrEHg.png)
+![Technologies](https://i.imgur.com/dFd5FrL.png)
 
 ## Screenshots
 ![Screenshots](https://i.imgur.com/ATMpQg2.png)
